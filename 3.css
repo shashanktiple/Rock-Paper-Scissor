@@ -1,0 +1,47 @@
+#container {
+  height: 15em;
+  width: 25em;
+  background-color: rgb(61, 125, 116);
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+#play {
+  font-size: 1.5em;
+  background-color: bisque;
+  width: 90%;
+  height: 60%;
+  margin: 20px;
+  border-radius: 10px;
+}
+#player {
+  padding-top: 5px;
+  padding-left: 30px;
+}
+#result {
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+#computer {
+  padding-left: 30px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+
+  height: 30px;
+}
+#rock {
+  border-radius: 5px;
+  width: 70px;
+}
+#paper {
+  border-radius: 5px;
+  width: 70px;
+}
+#scissor {
+  border-radius: 5px;
+  width: 70px;
+}
